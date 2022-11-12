@@ -154,7 +154,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend - React.js, Redux, ", //Insert stack or technology you have experience in
+      Stack: "Frontend - React.js, Redux", //Insert stack or technology you have experience in
       progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
