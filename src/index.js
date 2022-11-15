@@ -2,24 +2,29 @@
 // import ReactDOM from "react-dom";
 // import "./index.css";
 // import App from "./App";
-// import * as serviceWorker from "./serviceWorker";
+import * as serviceWorker from "./serviceWorker";
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 
 
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom'
 import App from './App';
-import './styles/index.css';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+ReactDOM.render(<React.StrictMode>
     <HashRouter>
       <App />
     </HashRouter>
-  </React.StrictMode>
-);
+  </React.StrictMode>, document.getElementById("root"));
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <HashRouter>
+//       <App />
+//     </HashRouter>
+//   </React.StrictMode>
+// );
 
 
 // If you want your app to work offline and load faster, you can change
