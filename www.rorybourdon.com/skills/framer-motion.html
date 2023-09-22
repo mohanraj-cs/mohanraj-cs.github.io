@@ -1,0 +1,177 @@
+<!DOCTYPE html><html>
+<!-- Mirrored from www.rorybourdon.com/skills/framer-motion by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Sep 2023 03:31:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><link rel="manifest" href="../site.webmanifest"/><link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5"/><meta name="msapplication-TileColor" content="#00aba9"/><meta name="theme-color" content="#ffffff"/><meta name="author" content="Mohan Raj Chandrasekar"/><meta charSet="utf-8"/><meta name="viewport" content="initial-scale=1.0, width=device-width"/><title>Framer Motion - Skills - Mohan Raj Chandrasekar | Web Developer &amp; Visual Artist</title><meta name="description" content="Framer Motion - Skills - Mohan Raj Chandrasekar | Web Developer &amp; Visual Artist"/><link rel="preload" as="image" imageSrcSet="/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FpJTcz0eRSqqOBrpUc2QA&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FpJTcz0eRSqqOBrpUc2QA&amp;w=384&amp;q=75 2x" fetchpriority="high"/><meta name="next-head-count" content="10"/><link rel="preload" href="../_next/static/media/939b5075d50998ef-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><script id="theme-script" data-nscript="beforeInteractive">
+            (function () {
+              var currentTheme;
+            
+              function changeTheme(inputTheme) {
+                if (inputTheme === "dark") {
+                  const theme = themeConfig.dark;
+                  for (let key in theme) {
+                    setCSSVar(key, theme[key]);
+                  }
+                  localStorage.setItem("theme", inputTheme);
+                } else {
+                  const theme = themeConfig.light;
+                  for (let key in theme) {
+                    setCSSVar(key, theme[key]);
+                  }
+                  localStorage.setItem("theme", inputTheme);
+                }
+              }
+              function setCSSVar(property, color) {
+                document.documentElement.style.setProperty(property, color);
+              }
+              try {
+                const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+                const savedTheme = localStorage.getItem("theme");
+                if (savedTheme) {
+                  currentTheme = savedTheme;
+                }
+                else if (sysDark)
+                {
+                  currentTheme = "dark";
+                }
+                else
+                {
+                  currentTheme = "light";
+                }
+                
+                var themeConfig = {
+                  dark: {
+                    "--color-name": "dark",                  
+                    "--color-primary": "hsla(270, 8.74%, 85.88%, 1)",
+                    "--color-primary_verylight": "hsla(hsla(270, 8.64%, 91%, 1))",
+                    "--color-primary_light": "hsla(270, 8.64%, 88.52%, 1)",
+                    "--color-primary_superdark": "hsla(266.67, 5.89%, 18.63%, 1)",
+                    "--color-primary_verydark": "hsla(266.67, 6.89%, 28.63%, 1)",
+                    "--color-primary_mediumdark": "hsla(270, 4.74%, 55.88%, 1)",
+                    "--color-primary_slightlydark": "hsla(270, 8.74%, 75.88%, 1)",
+                    "--color-primary_dark": "hsla(270, 5.89%, 40.71%, 1)",
+                    "--color-yellow": "hsla(57.71, 43.12%, 60.08%, 1)",
+                    "--color-green": "hsla(77, 55.36%, 55.2%, 1)",
+                    "--color-teal": "hsla(179, 45.6%, 50.37%, 1)",
+                    "--color-orange": "hsl(348, 61.7%, 55.61%, 1)",
+                    "--color-blue": "hsla(209.16, 52.72%, 47.98%, 1)",
+                    "--color-purple": "hsla(298.33, 36.78%, 55.98%, 1)",
+                    "--color-red": "hsla(351.89, 42.07%, 47.02%, 1)",
+                    "--color-shadow_key": "hsla(270, 6%, 10%, 0.5)",
+                    "--color-shadow_ambient": "hsla(270, 6%, 10%, 0.3)",
+                  },
+                  light: {
+                    "--color-name": "light",
+                    "--color-primary": "hsla(270, 8.74%, 85.88%, 1)",
+                    "--color-primary_verylight": "hsla(hsla(270, 8.64%, 91%, 1))",
+                    "--color-primary_light": "hsla(270, 8.64%, 88.52%, 1)",
+                    "--color-primary_superdark": "hsla(266.67, 5.89%, 18.63%, 1)",
+                    "--color-primary_verydark": "hsla(266.67, 6.89%, 28.63%, 1)",
+                    "--color-primary_mediumdark": "hsla(270, 4.74%, 55.88%, 1)",
+                    "--color-primary_slightlydark": "hsla(270, 8.74%, 75.88%, 1)",
+                    "--color-primary_dark": "hsla(270, 5.89%, 40.71%, 1)",
+                    "--color-yellow": "hsla(57.71, 43.12%, 60.08%, 1)",
+                    "--color-green": "hsla(77, 55.36%, 55.2%, 1)",
+                    "--color-teal": "hsla(179, 45.6%, 50.37%, 1)",
+                    "--color-orange": "hsl(348, 61.7%, 55.61%, 1)",
+                    "--color-blue": "hsla(209.16, 52.72%, 47.98%, 1)",
+                    "--color-purple": "hsla(298.33, 36.78%, 55.98%, 1)",
+                    "--color-red": "hsla(351.89, 42.07%, 47.02%, 1)",
+                    "--color-shadow_key": "hsla(270, 6%, 10%, 0.15)",
+                    "--color-shadow_ambient": "hsla(270, 6%, 10%, 0.1)",
+                  },
+                };
+                
+                changeTheme(currentTheme);
+              } catch (err) {
+                console.log(new Error("accessing theme has been denied"));
+              }
+            })();
+            </script><link rel="preload" href="../_next/static/css/6a8541574e06a80e.css" as="style"/><link rel="stylesheet" href="../_next/static/css/6a8541574e06a80e.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="../_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script><script src="../_next/static/chunks/webpack-f12d199bf759a061.js" defer=""></script><script src="../_next/static/chunks/framework-7a7e500878b44665.js" defer=""></script><script src="../_next/static/chunks/main-db4e1874517317ba.js" defer=""></script><script src="../_next/static/chunks/pages/_app-43d14ae481dab59d.js" defer=""></script><script src="../_next/static/chunks/746-7fda605dcbff8dd7.js" defer=""></script><script src="../_next/static/chunks/838-bc20315478bf2432.js" defer=""></script><script src="../_next/static/chunks/513-d20510dd0b197309.js" defer=""></script><script src="../_next/static/chunks/pages/skills/%5bskill%5d-f4ca36fb5c546207.js" defer=""></script><script src="../_next/static/fieOke7ZCGY6sBLqjQLht/_buildManifest.js" defer=""></script><script src="../_next/static/fieOke7ZCGY6sBLqjQLht/_ssgManifest.js" defer=""></script><style data-styled="" data-styled-version="6.0.6">html{scrollbar-width:thin;scrollbar-color:var(--color-primary_mediumdark) var(--color-primary);scroll-behavior:smooth;}/*!sc*/
+html::-webkit-scrollbar{width:10px;}/*!sc*/
+html::-webkit-scrollbar-track{background:var(--color-primary);}/*!sc*/
+html::-webkit-scrollbar-thumb{background-color:var(--color-primary_mediumdark);}/*!sc*/
+html::-webkit-scrollbar-thumb:hover{background-color:var(--color-primary_dark);}/*!sc*/
+body{margin:0;padding:0;box-sizing:border-box;font-size:1rem;font-weight:200;font-style:normal;color:hsla(0,0%,28.63%,1);min-height:100vh;}/*!sc*/
+a{color:inherit;text-decoration:none;}/*!sc*/
+*{box-sizing:border-box;}/*!sc*/
+button,input[type="submit"],input[type="reset"]{background:none;color:inherit;border:none;padding:0;font:inherit;cursor:pointer;outline:inherit;}/*!sc*/
+p{margin:0;font-size:clamp(1rem, .85vw, 1.3rem);font-weight:200;}/*!sc*/
+figure{margin:0;}/*!sc*/
+figcaption{margin:0;}/*!sc*/
+header{font-size:clamp(3.0rem, 6vw, 5.438rem);line-height:1;}/*!sc*/
+h1{margin:0;font-size:clamp(2.7rem, 11vw, 8.5rem);line-height:1;font-weight:200;}/*!sc*/
+h2{font-size:clamp(1.2rem, 4.5vw, 1.8rem);line-height:clamp(1.2rem, 7vw, 2rem);margin:0;font-weight:200;}/*!sc*/
+h3{margin:0;font-size:clamp(1.15rem, 1.66vw, 1.425rem);line-height:clamp(1.25rem, 1.66vw, 1.8rem);font-weight:200;}/*!sc*/
+h4{font-size:1rem;margin:0 0 4px 0;line-height:1;font-weight:200;}/*!sc*/
+data-styled.g1[id="sc-global-ctMlVb1"]{content:"sc-global-ctMlVb1,"}/*!sc*/
+.kbmOxX{width:100%;height:100%;}/*!sc*/
+data-styled.g2[id="sc-6c2ba9ce-0"]{content:"kbmOxX,"}/*!sc*/
+.fdaWgC{text-align:center;font-size:1.2rem;font-weight:200;position:relative;z-index:5;}/*!sc*/
+.fdaWgC:focus{outline:none;}/*!sc*/
+data-styled.g3[id="sc-11bb4c34-0"]{content:"fdaWgC,"}/*!sc*/
+.etsqRf{border:none;background:none;width:100%;height:100%;max-width:100%;max-height:100%;z-index:9999;position:relative;}/*!sc*/
+data-styled.g5[id="sc-8c7abd2a-0"]{content:"etsqRf,"}/*!sc*/
+.egWrCI{width:100%;height:100%;max-height:100%;max-width:100%;}/*!sc*/
+data-styled.g6[id="sc-9e64d6c2-0"]{content:"egWrCI,"}/*!sc*/
+.gSIkvc{width:100%;min-width:100%;max-width:100%;height:12vh;display:grid;grid-template-rows:100%;grid-template-columns:minmax(max-content, 8vw) 1fr;justify-items:flex-end;align-items:center;padding:3vh 25px 0 25px;}/*!sc*/
+@media (max-width: 555px){.gSIkvc{height:7.5vh;padding:3vh 10px 0 10px;}}/*!sc*/
+data-styled.g10[id="sc-1177b2d7-0"]{content:"gSIkvc,"}/*!sc*/
+.lbIGqO{width:100%;height:max-content;display:flex;justify-content:flex-end;align-items:center;align-self:center;}/*!sc*/
+data-styled.g11[id="sc-1177b2d7-1"]{content:"lbIGqO,"}/*!sc*/
+.csKizX{width:min(100%, 700px);height:70%;display:flex;justify-content:space-evenly;align-items:center;}/*!sc*/
+@media (max-width: 655px){.csKizX{display:none;}}/*!sc*/
+data-styled.g12[id="sc-1177b2d7-2"]{content:"csKizX,"}/*!sc*/
+.jGUrsJ{height:max-content;width:3rem;max-height:100%;padding:0 0.5rem;z-index:3;}/*!sc*/
+@media (min-width: 655px){.jGUrsJ{display:none;}}/*!sc*/
+data-styled.g13[id="sc-1177b2d7-3"]{content:"jGUrsJ,"}/*!sc*/
+.jngWVX{width:70%;height:70%;display:flex;flex-direction:row;justify-content:center;align-items:center;z-index:20;}/*!sc*/
+@media (max-width: 555px){.jngWVX{width:100%;height:100%;}}/*!sc*/
+data-styled.g14[id="sc-1177b2d7-4"]{content:"jngWVX,"}/*!sc*/
+.dSOcCW{width:max-content;min-width:100%;max-width:100%;position:absolute;left:0;pointer-events:none;top:0;}/*!sc*/
+data-styled.g16[id="sc-c042db4f-0"]{content:"dSOcCW,"}/*!sc*/
+.hPJJYG{width:12vw;max-width:70px;height:max-content;display:flex;justify-content:center;align-items:center;position:relative;z-index:1;background:none;color:inherit;border:none;padding:8px 8px;cursor:pointer;-webkit-tap-highlight-color:transparent;}/*!sc*/
+data-styled.g17[id="sc-8f014a19-0"]{content:"hPJJYG,"}/*!sc*/
+.hvXUKR{position:absolute;width:100%;height:100%;left:0;bottom:0;border-radius:5px;}/*!sc*/
+data-styled.g18[id="sc-8f014a19-1"]{content:"hvXUKR,"}/*!sc*/
+.hGNaEJ{width:100%;display:flex;align-items:center;z-index:1;}/*!sc*/
+data-styled.g29[id="sc-3384b74c-0"]{content:"hGNaEJ,"}/*!sc*/
+.eZIiof{height:20px;width:max-content;padding:0 8px;font-weight:200;font-size:0.75rem;border-radius:20px;display:flex;align-items:center;justify-content:center;margin-right:5px;margin-bottom:5px;user-select:none;cursor:pointer;}/*!sc*/
+data-styled.g81[id="sc-e385afd-0"]{content:"eZIiof,"}/*!sc*/
+.eEoClX{width:100%;position:relative;padding:25px 30px;display:grid;grid-template-columns:100%;grid-template-rows:auto auto auto 1fr;align-items:start;justify-items:center;align-content:center;border-radius:20px;-webkit-user-drag:none;-moz-user-drag:none;user-drag:none;user-select:none;}/*!sc*/
+.eEoClX:focus{outline:none;}/*!sc*/
+data-styled.g84[id="sc-c090e3a7-0"]{content:"eEoClX,"}/*!sc*/
+.gHAnKT{width:100%;font-size:1.1rem;font-weight:400;user-select:none;}/*!sc*/
+data-styled.g85[id="sc-c090e3a7-1"]{content:"gHAnKT,"}/*!sc*/
+.fvepwg{width:100%;font-size:0.9rem;font-weight:200;user-select:none;line-height:1.25;}/*!sc*/
+data-styled.g86[id="sc-c090e3a7-2"]{content:"fvepwg,"}/*!sc*/
+.hHJtbU{display:flex;flex-wrap:wrap;width:100%;padding:10px 0 10px 0;}/*!sc*/
+data-styled.g87[id="sc-c090e3a7-3"]{content:"hHJtbU,"}/*!sc*/
+.hgPjNP{width:100%;max-width:100%;height:max-content;justify-content:center;align-items:center;display:flex;margin:0;padding:20px 0;justify-self:center;user-select:none;}/*!sc*/
+@media (max-width: 555px){.hgPjNP{padding:0;}}/*!sc*/
+data-styled.g89[id="sc-2f93b45d-0"]{content:"hgPjNP,"}/*!sc*/
+.mSWeQ{width:max-content;height:max-content;align-content:center;justify-items:center;justify-content:center;display:grid;grid-template-rows:245px;grid-template-columns:340px 340px 340px;column-gap:55px;padding:0 40px;margin:0;cursor:grab;grid-auto-rows:320px;user-select:none;}/*!sc*/
+data-styled.g90[id="sc-2f93b45d-1"]{content:"mSWeQ,"}/*!sc*/
+.jRsCve{width:100%;min-width:100%;height:100%;display:grid;flex:1;grid-template-rows:max-content max-content;grid-template-columns:100%;padding:0 11vw;align-content:space-evenly;grid-auto-flow:dense;overflow:hidden;}/*!sc*/
+@media (max-width: 555px){.jRsCve{row-gap:10px;align-items:start;grid-template-rows:max-content max-content;grid-template-columns:100%;padding:0 8vw;}}/*!sc*/
+data-styled.g101[id="sc-abdb96e-0"]{content:"jRsCve,"}/*!sc*/
+.dyNKOS{width:100%;height:100vh;display:flex;flex-direction:column;overflow:hidden;position:relative;}/*!sc*/
+data-styled.g102[id="sc-abdb96e-1"]{content:"dyNKOS,"}/*!sc*/
+.fAjETh{width:100%;height:100%;}/*!sc*/
+data-styled.g103[id="sc-abdb96e-2"]{content:"fAjETh,"}/*!sc*/
+.kZpSqG{min-width:130px;width:130px;min-height:130px;height:130px;margin-right:2.5vw;border-radius:20px;overflow:hidden;position:relative;}/*!sc*/
+data-styled.g104[id="sc-abdb96e-3"]{content:"kZpSqG,"}/*!sc*/
+.eAsePd{width:max-content;font-size:clamp(3.4rem, 15vw, 9rem);font-weight:200;line-height:1.2;margin:0 0 20px 30px;}/*!sc*/
+data-styled.g105[id="sc-abdb96e-4"]{content:"eAsePd,"}/*!sc*/
+.Xycdj{width:100%;font-size:clamp(1rem, 4vw, 1.3525rem);font-weight:200;line-height:clamp(1rem, 4.5vw, 1.55rem);z-index:1;}/*!sc*/
+data-styled.g106[id="sc-abdb96e-5"]{content:"Xycdj,"}/*!sc*/
+.hKZxKu{width:100%;font-size:clamp(1rem, 4vw, 1.3525rem);font-weight:200;line-height:clamp(1rem, 4.5vw, 1.55rem);grid-column:1;display:flex;}/*!sc*/
+data-styled.g107[id="sc-abdb96e-6"]{content:"hKZxKu,"}/*!sc*/
+.gUeDUc{width:100%;display:flex;flex-direction:column;}/*!sc*/
+data-styled.g108[id="sc-abdb96e-7"]{content:"gUeDUc,"}/*!sc*/
+.gnuFzH{width:100%;display:flex;flex-direction:column;}/*!sc*/
+data-styled.g109[id="sc-abdb96e-8"]{content:"gnuFzH,"}/*!sc*/
+.huPOXR{width:100%;padding-bottom:3vh;display:flex;align-items:center;justify-content:center;}/*!sc*/
+data-styled.g110[id="sc-abdb96e-9"]{content:"huPOXR,"}/*!sc*/
+</style></head><body><div id="__next"><div class="__className_bcd626" style="overflow:scroll;width:100%;background-color:var(--color-primary_light)"><div class="sc-abdb96e-1 dyNKOS" style="background-color:var(--color-primary)"><nav class="sc-1177b2d7-0 gSIkvc"><a href="../index.html" class="sc-1177b2d7-4 jngWVX"><div class="sc-6c2ba9ce-0 kbmOxX"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 311.3 311.3" height="100%" width="100%"><g fill="var(--color-primary_verydark)"><path d="M157.9 79.5a6.5 6.5 0 0 0-.7-4.7 7.2 7.2 0 0 0-.8-1.2L122 37.3a13.6 13.6 0 0 0-9.8-4.2H61a13.6 13.6 0 0 0-12.5 8.3l-34.2 81a13.5 13.5 0 0 0 3 14.8L54 174a13.5 13.5 0 0 0 9.6 4h25.7a13.6 13.6 0 0 0 13.5-13.5v-9.4a13.6 13.6 0 0 0-13.5-13.6H78.8a13.5 13.5 0 0 1-9.6-4l-10.6-10.7a13.5 13.5 0 0 1-3-14.7L69.7 78a13.6 13.6 0 0 1 12.6-8.4h15a13.6 13.6 0 0 1 9.7 4l13 13.1a13.6 13.6 0 0 1 4 9.6v131.4a4.2 4.2 0 0 0 3.8 4.2l6 .6a4.2 4.2 0 0 0 4.6-3.6Z"></path><path d="M153.4 231.8a6.2 6.2 0 0 0 1.5 5.9l34.3 36.3a13.6 13.6 0 0 0 9.8 4.3h51.2a13.6 13.6 0 0 0 12.5-8.3l34.2-81a13.5 13.5 0 0 0-3-14.9l-36.7-36.7a13.6 13.6 0 0 0-9.6-4h-25.7a13.5 13.5 0 0 0-13.5 13.5v9.4a13.6 13.6 0 0 0 13.5 13.6h10.6a13.5 13.5 0 0 1 9.6 4l10.7 10.7a13.5 13.5 0 0 1 3 14.7l-14.2 34.1a13.6 13.6 0 0 1-12.5 8.4h-15.2a13.6 13.6 0 0 1-9.5-4l-13.2-13.2a13.5 13.5 0 0 1-4-9.6V84.8a4.3 4.3 0 0 0-3.8-4.2l-5.8-.6a4.3 4.3 0 0 0-4.7 3.7Z"></path></g></svg></div></a><div class="sc-1177b2d7-1 lbIGqO"><div class="sc-1177b2d7-2 csKizX"><a href="../projects.html" class="sc-11bb4c34-0 fdaWgC" style="color:var(--color-primary_dark);opacity:0">Projects</a><a href="../contact" class="sc-11bb4c34-0 fdaWgC" style="color:var(--color-primary_dark);opacity:0">Contact</a><a href="../Rory_Bourdon_Resume_2021.pdf" class="sc-11bb4c34-0 fdaWgC" style="color:var(--color-primary_dark);opacity:0">Resume</a></div><div class="sc-1177b2d7-3 jGUrsJ"><div class="sc-9e64d6c2-0 egWrCI"><button class="sc-8c7abd2a-0 etsqRf"><svg fill="none" stroke="[object Object]" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" role="img" viewBox="-2 -2 28 28" style="stroke:var(--color-primary_dark)"><title>Hamburger Menu</title><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></div></div></div></nav><div class="sc-c042db4f-0 dSOcCW"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"></svg></div><main class="sc-abdb96e-0 jRsCve"><div class="sc-abdb96e-7 gUeDUc"><div class="sc-3384b74c-0 hGNaEJ"><button class="sc-8f014a19-0 hPJJYG" style="opacity:1;transform:translateX(600px) scale(1) rotate(-90deg) translateZ(0)"><div class="sc-8f014a19-1 hvXUKR" style="height:0%;transform-origin:0% 0% 0"></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.4 15.5"><g fill="none" stroke="var(--color-primary_dark)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"><line vector-effect="non-scaling-stroke" d="M6.2 15V1" x1="6.2" y1=".5" x2="6.2" y2="15"></line><path vector-effect="non-scaling-stroke" d="M.5 6.2 6.1.5a.1.1 0 0 1 .2 0l5.6 5.7"></path></g></svg></button><h1 class="sc-abdb96e-4 eAsePd" style="color:var(--color-primary_verydark)">Framer Motion</h1></div><div class="sc-abdb96e-6 hKZxKu"><div class="sc-abdb96e-3 kZpSqG" style="border-radius:20px;background-color:hsla(0,0%,0%,0)"><div class="sc-abdb96e-2 fAjETh" style="opacity:0"><img alt="Framer Motion Logo" fetchpriority="high" width="130" height="130" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FpJTcz0eRSqqOBrpUc2QA&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FpJTcz0eRSqqOBrpUc2QA&amp;w=384&amp;q=75 2x" src="../_next/pJTcz0eRSqqOBrpUc2QA1bdd.svg?url=https%3A%2F%2Fmedia.graphassets.com%2FpJTcz0eRSqqOBrpUc2QA&amp;w=384&amp;q=75"/></div></div><p class="sc-abdb96e-5 Xycdj" style="color:var(--color-primary_dark);opacity:0;transform:translateX(70%) translateZ(0)">Framer Motion is a production-ready motion library for React from Framer. It brings declarative animations, effortless layout transitions and gestures while maintaining HTML and SVG semantics.</p></div></div><div class="sc-abdb96e-8 gnuFzH"><p class="sc-abdb96e-9 huPOXR" style="opacity:0;transform:translateX(70%) translateZ(0)">Projects built with <!-- -->Framer Motion</p><div class="sc-2f93b45d-0 hgPjNP"><ul class="sc-2f93b45d-1 mSWeQ" style="cursor:grab;grid-template-columns:repeat(3, 340px)"><div tabindex="0" class="sc-c090e3a7-0 eEoClX" draggable="false" style="z-index:0;box-shadow:0px 0px 0px 0px  var(--color-shadow_key), 0px 0px 0px 0px var(--color-shadow_ambient);background-color:var(--color-primary);transform:translateX(200px) scale(1) translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y"><p class="sc-c090e3a7-1 gHAnKT" style="color:var(--color-primary_verydark);opacity:0;transform:translateX(300px) translateZ(0)">Portfolio Website</p><p class="sc-c090e3a7-2 fvepwg" style="color:var(--color-primary_verydark);opacity:0;transform:translateX(190px) translateZ(0)">My personal portfolio website. Designed in Adobe Illustrator and built using Next.js, Framer Motion, GraphCMS &amp; more!</p><div class="sc-c090e3a7-3 hHJtbU"><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">React</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Javascript</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Next.js</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Framer Motion</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">HTML</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">CSS</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Git</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">GraphQL</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Illustrator</div></div></div><div tabindex="0" class="sc-c090e3a7-0 eEoClX" draggable="false" style="z-index:0;box-shadow:0px 0px 0px 0px  var(--color-shadow_key), 0px 0px 0px 0px var(--color-shadow_ambient);background-color:var(--color-primary);transform:translateX(200px) scale(1) translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y"><p class="sc-c090e3a7-1 gHAnKT" style="color:var(--color-primary_verydark);opacity:0;transform:translateX(300px) translateZ(0)">FMG Dropshipping</p><p class="sc-c090e3a7-2 fvepwg" style="color:var(--color-primary_verydark);opacity:0;transform:translateX(190px) translateZ(0)">B2B jamstack e-commerce website that allows customers to browse, and  and quote promotional product gift boxes.</p><div class="sc-c090e3a7-3 hHJtbU"><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">React</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Javascript</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Next.js</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Framer Motion</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">HTML</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">CSS</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Git</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Illustrator</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">GraphQL</div></div></div><div tabindex="0" class="sc-c090e3a7-0 eEoClX" draggable="false" style="z-index:0;box-shadow:0px 0px 0px 0px  var(--color-shadow_key), 0px 0px 0px 0px var(--color-shadow_ambient);background-color:var(--color-primary);transform:translateX(200px) scale(1) translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:pan-y"><p class="sc-c090e3a7-1 gHAnKT" style="color:var(--color-primary_verydark);opacity:0;transform:translateX(300px) translateZ(0)">More Coming Soon!</p><p class="sc-c090e3a7-2 fvepwg" style="color:var(--color-primary_verydark);opacity:0;transform:translateX(190px) translateZ(0)">I&#x27;m always building, learning, iterating.</p><div class="sc-c090e3a7-3 hHJtbU"><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Next.js</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">React</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Javascript</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Framer Motion</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Git</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Blender</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Unreal Engine</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">GraphQL</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">MongoDB</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Illustrator</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">Haxe</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">PostgreSQL</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">HTML</div><div class="sc-e385afd-0 eZIiof" style="border-width:1px;border-style:solid;border-color:var(--color-primary_slightlydark);background-color:var(--color-primary_light);color:var(--color-primary_verydark);opacity:0;transform:translateX(120px) translateZ(0)">CSS</div></div></div></ul></div></div></main></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"skill":{"title":"Framer Motion","slug":"framer-motion","description":"Framer Motion is a production-ready motion library for React from Framer. It brings declarative animations, effortless layout transitions and gestures while maintaining HTML and SVG semantics.","primaryColor":{"rgba":{"r":25,"g":25,"b":25,"a":1}},"secondaryColor":{"rgba":{"r":226,"g":223,"b":228,"a":1}},"image":{"url":"https://media.graphassets.com/pJTcz0eRSqqOBrpUc2QA"},"projects":[{"slug":"portfolio-website","title":"Portfolio Website","shortDescription":"My personal portfolio website. Designed in Adobe Illustrator and built using Next.js, Framer Motion, GraphCMS \u0026 more!","skills":[{"slug":"react","title":"React"},{"slug":"javascript","title":"Javascript"},{"slug":"nextjs","title":"Next.js"},{"slug":"framer-motion","title":"Framer Motion"},{"slug":"html","title":"HTML"},{"slug":"css","title":"CSS"},{"slug":"git","title":"Git"},{"slug":"graphql","title":"GraphQL"},{"slug":"illustrator","title":"Illustrator"}]},{"slug":"fmg-dropshipping","title":"FMG Dropshipping","shortDescription":"B2B jamstack e-commerce website that allows customers to browse, and  and quote promotional product gift boxes.","skills":[{"slug":"react","title":"React"},{"slug":"javascript","title":"Javascript"},{"slug":"nextjs","title":"Next.js"},{"slug":"framer-motion","title":"Framer Motion"},{"slug":"html","title":"HTML"},{"slug":"css","title":"CSS"},{"slug":"git","title":"Git"},{"slug":"illustrator","title":"Illustrator"},{"slug":"graphql","title":"GraphQL"}]},{"slug":"more-coming-soon","title":"More Coming Soon!","shortDescription":"I'm always building, learning, iterating.","skills":[{"slug":"nextjs","title":"Next.js"},{"slug":"react","title":"React"},{"slug":"javascript","title":"Javascript"},{"slug":"framer-motion","title":"Framer Motion"},{"slug":"git","title":"Git"},{"slug":"blender","title":"Blender"},{"slug":"unreal-engine","title":"Unreal Engine"},{"slug":"graphql","title":"GraphQL"},{"slug":"mongodb","title":"MongoDB"},{"slug":"illustrator","title":"Illustrator"},{"slug":"haxe","title":"Haxe"},{"slug":"postgresql","title":"PostgreSQL"},{"slug":"html","title":"HTML"},{"slug":"css","title":"CSS"}]}]}},"__N_SSG":true},"page":"/skills/[skill]","query":{"skill":"framer-motion"},"buildId":"fieOke7ZCGY6sBLqjQLht","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body>
+<!-- Mirrored from www.rorybourdon.com/skills/framer-motion by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Sep 2023 03:31:22 GMT -->
+</html>
